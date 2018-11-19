@@ -275,7 +275,7 @@ a.cc-cookie-link {
 
 /*** FACT ***/
 
-ul.facts {
+/*** ul.facts {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -284,4 +284,4 @@ ul.facts {
 .fact-item{
 flex: 0 1 50%;
 padding: 0.5em 1.5em 3em 1.5em;
-}
+} **/
