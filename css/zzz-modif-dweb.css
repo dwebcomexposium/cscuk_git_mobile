@@ -271,3 +271,17 @@ a.cc-cookie-link {
 .faq .faq-sub-title, .faq .js-sna-menu, .faq .fc-title {
     display: none;
 }
+
+
+/*** FACT ***/
+
+ul.facts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fact-item{
+flex: 0 1 50%;
+padding: 0.5em 1.5em 3em 1.5em;
+}
