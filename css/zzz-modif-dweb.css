@@ -390,6 +390,7 @@ button.sb-menu-trigger.js-toggle-trigger.unstyled{
 height:10px;
 width:35px;
 margin-top: 61px;
+margin-right: 10px;
 }
 button.sb-menu-trigger.js-toggle-trigger.unstyled .line {
   display: block;
@@ -489,4 +490,11 @@ transform: translateY(0px) translateX(0px) rotate(90deg);
 }
 .site-banner .logo img {
     height: 60px;
+}
+header.site-banner {
+    height: 100px;
+}
+.site-banner .block.block-small.quicklinks.header-quicklinks {
+    margin-top: 15px;
+    margin-right: 67px;
 }
