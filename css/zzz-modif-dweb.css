@@ -300,7 +300,7 @@ a.cc-cookie-link {
     content: ' ';
     position: absolute;
     right: 31px;
-    margin-top: 0px;
+    margin-top: -2px;
     width: 30px;
     height: 30px;
     background-size: 17px;
