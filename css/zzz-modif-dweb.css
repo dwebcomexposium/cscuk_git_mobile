@@ -324,8 +324,22 @@ nav.main-navigation.nav-general.js-toggle-target:before {
 	    max-height: 600px;
 }
 
+.mn-menu-submenu .mn-link.is-active span.mn-link-text:after {
+    content: ' ';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius:50%;
+    background-color: #FFD700;
+    left:-15px;
+    top:7px;
+    display:inline-block;
+}
+.mn-menu-submenu .mn-link.is-active span.mn-link-text {
+    color: #FFD700;
+}
 .mn-menu-submenu .mn-link.is-active {
-    background: #ffffff;
+    background: transparent!important;
     color: #0645F9;
 }
 
