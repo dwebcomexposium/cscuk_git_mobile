@@ -314,10 +314,15 @@ a.cc-cookie-link {
     -moz-transform: translateY(0px) translateX(0px) rotate(90deg);
 }
 
-.fc-item.js-sna-item .fc-item-link.js-sna-item-link, .fc-item-content.js-sna-item-content.is-open {
+.fc-item.js-sna-item .fc-item-link.js-sna-item-link {
     padding: 0rem 3.5rem 0rem 1rem;
     color: #000000;
     font-weight: 600;
+}
+
+.fc-item-content.js-sna-item-content.is-open{
+	padding: 0rem 3.5rem 0rem 1rem;
+    color: #000000;
 }
 
 .fc-item.js-sna-item .fc-item-link.js-sna-item-link.is-active:before {
