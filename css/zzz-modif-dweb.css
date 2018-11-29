@@ -493,6 +493,9 @@ transform: translateY(0px) translateX(0px) rotate(90deg);
 }
 header.site-banner {
     height: 100px;
+	-webkit-box-shadow: 0px 7px 14px -2px rgba(0,0,0,0.21);
+-moz-box-shadow: 0px 7px 14px -2px rgba(0,0,0,0.21);
+box-shadow: 0px 7px 14px -2px rgba(0,0,0,0.21);
 }
 .site-banner .block.block-small.quicklinks.header-quicklinks {
     margin-top: 15px;
