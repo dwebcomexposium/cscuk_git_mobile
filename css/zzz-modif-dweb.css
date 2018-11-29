@@ -273,15 +273,61 @@ a.cc-cookie-link {
 	color:#ffffff;
 }
 
-/**** SUPPR TITRE THEME FAQ ****/
 
+/*******************************/
+/************* FACT ************/
+/*******************************/
 .faq .faq-sub-title, .faq .js-sna-menu, .faq .fc-title {
     display: none;
 }
 
+.fc-item.js-sna-item {
+    border: 1px #b7b7b7 solid;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
 
-/*** FACT ***/
+.fc-item.js-sna-item i.icon.icon-plus:before {
+    content: ' ';
+}
+.fc-item.js-sna-item i.icon.icon-minus:before {
+    content: ' ';
+}
 
+.fc-item.js-sna-item .fc-item-link.js-sna-item-link:before {
+    content: ' ';
+    background: url(/theme/cscuk2_git_mobile/img/arrow-right-menu.png);
+    content: ' ';
+    position: absolute;
+    right: 31px;
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transform: translateY(0px) translateX(0px) rotate(90deg);
+    -webkit-transform: translateY(0px) translateX(0px) rotate(90deg);
+    -moz-transform: translateY(0px) translateX(0px) rotate(90deg);
+}
+
+.fc-item.js-sna-item .fc-item-link.js-sna-item-link, .fc-item-content.js-sna-item-content.is-open {
+    padding: 0rem 3.5rem 0rem 1rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.fc-item.js-sna-item .fc-item-link.js-sna-item-link.is-active:before {
+    transform: translateY(0px) translateX(0px) rotate(-90deg);
+    -webkit-transform: translateY(0px) translateX(0px) rotate(-90deg);
+    -moz-transform: translateY(0px) translateX(0px) rotate(-90deg);
+}
+.faq h1.faq-main-title {
+    margin-bottom: 30px;
+}
 /*** ul.facts {
     display: flex;
     flex-direction: row;

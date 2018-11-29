@@ -1666,7 +1666,7 @@ input[type="email"]:-moz-placeholder { /* Firefox 18- */
 /* FAQ */
 
 .block-page.faq {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .faq-content {
