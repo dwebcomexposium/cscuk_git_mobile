@@ -18,3 +18,6 @@ if ( $(".bn-list").length && $(".article-intro").length ) {
 $(".js-toggle-trigger").click(function(){
     $('html').toggleClass('noscroll');
 });
+
+// Add menu span for navigation animation 
+$("button.sb-menu-trigger.js-toggle-trigger.unstyled").append("<span class='line line-1'></span><span class='line line-2'></span><span class='line line-3'></span>");
