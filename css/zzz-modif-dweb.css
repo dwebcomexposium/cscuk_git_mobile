@@ -322,7 +322,8 @@ a.cc-cookie-link {
 
 .fc-item-content.js-sna-item-content.is-open{
 	padding: 0rem 3.5rem 0rem 1rem;
-    color: #000000;
+    color: #8e9092;
+    font-size: 1.4rem;
 }
 
 .fc-item.js-sna-item .fc-item-link.js-sna-item-link.is-active:before {
