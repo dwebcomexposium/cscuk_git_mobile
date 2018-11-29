@@ -425,7 +425,7 @@ button.sb-menu-trigger.js-toggle-trigger.unstyled.is-open .line-3 {
 
 
 li.mn-menu-item.mn-item-lvl-1.mn-item-has-submenu:before {
-    background: url(/theme/cscuk2_git_mobile/img/arrow-right-menu.png);
+    background: url(/theme/cscuk2_git_mobile/img/arrow-right-menu-white.png);
     content: ' ';
     position: absolute;
     right: 20px;
