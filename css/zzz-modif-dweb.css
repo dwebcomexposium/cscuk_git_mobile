@@ -206,17 +206,24 @@ display:none;
     padding-top: 1em;
 }
 
+/*******************************/
 /**** Liste des partenaires ****/
+/*******************************/
 .partner img.pl-item-illust {
     background: transparent;
 }
 
 .partner-list h3.pl-item-title {
-    border-bottom: 1px solid #000000;
     padding-top: 26px;
+	padding-bottom: 10px;
 }
-
-/*** BANDEAU COOKIE ****/
+.partner p.pl-item-read-more {
+    text-align: right;
+    padding-right: 5px;
+}
+/*******************************/
+/******* BANDEAU COOKIE ********/
+/*******************************/
 
 .cc-cookies .cc-cookie-accept {
     padding: 0 22px;
