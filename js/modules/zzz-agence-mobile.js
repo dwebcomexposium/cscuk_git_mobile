@@ -21,3 +21,28 @@ $(".js-toggle-trigger").click(function(){
 
 // Add menu span for navigation animation 
 $("button.sb-menu-trigger.js-toggle-trigger.unstyled").append("<span class='line line-1'></span><span class='line line-2'></span><span class='line line-3'></span>");
+
+
+// Header animation on scroll
+
+$(document).ready(function () {
+  
+  'use strict';
+  
+   var c, currentScrollTop = 0,
+       navbar = $('header');
+
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+     
+      currentScrollTop = a;
+     
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollUp");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+      }
+      c = currentScrollTop;
+  });
+});

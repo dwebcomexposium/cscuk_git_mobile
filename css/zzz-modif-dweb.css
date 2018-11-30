@@ -569,6 +569,9 @@ header.site-banner.hidden{
     margin-right: 67px;
 }
 
+header.scrollUp {
+  transform: translateY(-100px);
+}
 
 /**************************/
 /***** Liste Articles ****/
