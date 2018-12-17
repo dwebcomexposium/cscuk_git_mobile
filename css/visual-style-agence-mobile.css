@@ -923,7 +923,7 @@ h5, h5.like {
 
 .block-page.newsletter-form .box-dark {
     position: relative;
-    z-index: 100;
+    z-index: 10;
     background: #1A4BD8;
     padding: 0;
 }
