@@ -632,3 +632,17 @@ header.scrollUp {
 .landing-page-quicklinks {
     padding-bottom: 9rem;
 }
+
+i.icon.icon-youtube {
+    -webkit-mask-image: url(/theme/cscuk2_git_mobile/img/youtube.svg);
+    mask-image: url(/theme/Prototype_git_desktop/img/clock.svg);
+    /* content: ' '; */
+    width: 40px;
+    margin-left: -9px;
+    margin-top: 3px;
+    background-color: #0645F9;
+    height: 40px;
+    /* position: absolute; */
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
