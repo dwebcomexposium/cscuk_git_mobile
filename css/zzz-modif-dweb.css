@@ -350,7 +350,7 @@ padding: 0.5em 1.5em 3em 1.5em;
 /***********************/
 
 nav.main-navigation, nav.main-navigation .mn-menu-item {
-    background: rgba( 6, 69, 249);
+    background:  #0645F9 !important;
 }
 
 span.mn-link-text {
